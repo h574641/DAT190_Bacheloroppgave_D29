@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3273575683
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1e00739a0a5f39ceb4f88c4de453f89
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac9a0d912f2f6540b86c9b86abf1b044
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 72
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30f4b897495c7ad40b2d47143e02aaba, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scenes/SampleScene_Profiles/PostFX Profile.asset
+- Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+Dependencies:
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_png0
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_png1
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_png2
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_compute0
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_tga0

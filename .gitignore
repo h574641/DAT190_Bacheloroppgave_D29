@@ -1,0 +1,36 @@
+/*
+
+# directories
+!/docs
+!/lib
+!/src
+
+# files
+!/.gitignore
+!/.gitmodules
+!/.gitattributes
+!/LICENSE
+!/README.md
+!/BachelorScene
+
+# other
+/BachelorScene/*.apk
+/BachelorScene/*.bat
+/BachelorScene/*.userprefs
+/BachelorScene/*.csproj
+/BachelorScene/*.pidb
+/BachelorScene/*.suo
+/BachelorScene/*.sln
+/BachelorScene/*.user
+/BachelorScene/*.unityproj
+/BachelorScene/*.booproj
+/BachelorScene/*.psd
+
+/BachelorScene/.vs/
+/BachelorScene/obj
+/BachelorScene/build
+/BachelorScene/Obj
+/BachelorScene/Build
+/BachelorScene/Logs
+/BachelorScene/Library
+/BachelorScene/Library/PackageCache

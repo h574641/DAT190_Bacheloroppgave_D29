@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 3289403876
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a480b03a6657258dea26aa53b76e4a37
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 55d48f4ad9c3b13330b9eb5ee5686477
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+- Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+Dependencies: []

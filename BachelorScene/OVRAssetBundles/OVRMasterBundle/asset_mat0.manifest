@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 2449635183
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc2d6d08eaa7b7c5b5f2b2d036c38499
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21c99c86a43ad817b2cb7f65458ae090
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/GlassMaterial.mat
+- Assets/Materials/VentilatorPlasticMaterial.mat
+- Assets/Materials/TEK123Material.mat
+- Assets/Materials/DoorMaterial.mat
+- Assets/Materials/ChromeMaterial.mat
+- Assets/Materials/WallMaterial.mat
+- Assets/Materials/SmokedetectorMaterial.mat
+- Assets/Materials/BabyMaterial.mat
+- Assets/Materials/VentilatorBluePlasticMaterial.mat
+- Assets/Materials/PlexiGlassMaterial.mat
+- Assets/Materials/BabySkinMaterial.mat
+- Assets/Materials/AsphyxiTableMaterial.mat
+- Assets/Materials/FloorMaterial.mat
+- Assets/Materials/RoofGridMaterial.mat
+- Assets/Materials/OutletMaterial.mat
+- Assets/Materials/HeatLampOnMaterial.mat
+- Assets/Materials/MattresMaterial.mat
+- Assets/Materials/BlackPlasticMaterial.mat
+- Assets/Materials/ClockSegmentOffMaterial.mat
+- Assets/Materials/LightBulbMaterial.mat
+- Assets/Materials/RoofTileMaterial.mat
+- Assets/Materials/ClockSegmentMaterial.mat
+- Assets/Materials/PorcelainMaterial.mat
+- Assets/Materials/HeatLampOffMaterial.mat
+- Assets/Materials/WallClockMaterial.mat
+Dependencies:
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_png0
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_png1
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_png2
+- E:/Code/Unity/Bachelor-Oppgave/BachelorScene/OVRAssetBundles/OVRMasterBundle/asset_psd0

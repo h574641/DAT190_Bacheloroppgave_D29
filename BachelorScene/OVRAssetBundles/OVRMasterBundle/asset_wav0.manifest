@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 808626798
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89728d4d402455009a3d15484ff11a3a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Audio/BackgroundAudio.wav
+- Assets/Audio/Beep.wav
+- Assets/Audio/Boop.wav
+Dependencies: []
