@@ -1,3 +1,5 @@
+Make an issue in the repo if you have trouble with GIT LFS, there is only 1gb of bandwidth on this account per month for git lfs. We will find a solution if it is necessary. 
+
 # VR training simulator for the application of correct resuscitation techniques for newborns
 
 This is a bachelors-thesis project that attempts to create a training simulator for midwives to train on the  Norwegian Resucitation Advisory boards resucitation algorithm.
