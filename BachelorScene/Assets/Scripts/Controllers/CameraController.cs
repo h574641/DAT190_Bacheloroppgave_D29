@@ -2,34 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour {
+namespace Behaviour
+{
 
-    private float moveSpeed = 0.05f;
-
-    float sensitivity = 3f;
-    float horizontalInput;
-    float verticalInput;
-    float rotateHorizontal;
-    float rotateVertical;
-    float Horizontal;
-    float Vertical;
-
-    void Update () {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
-        rotateHorizontal = Input.GetAxis("Mouse X");
-        rotateVertical = Input.GetAxis("Mouse Y");
-    }
-
-    void FixedUpdate()
+    public class CameraController : MonoBehaviour
     {
-        if (horizontalInput != 0 || verticalInput != 0) {
-            transform.Translate(moveSpeed * transform.right * horizontalInput, Space.World);
-            transform.Translate(moveSpeed * transform.forward * verticalInput, Space.World);
+
+        private float moveSpeed = 0.05f;
+
+        float sensitivity = 3f;
+        float horizontalInput;
+        float verticalInput;
+        float rotateHorizontal;
+        float rotateVertical;
+        float Horizontal;
+        float Vertical;
+
+        void Update()
+        {
+            horizontalInput = Input.GetAxisRaw("Horizontal");
+            verticalInput = Input.GetAxisRaw("Vertical");
+            rotateHorizontal = Input.GetAxis("Mouse X");
+            rotateVertical = Input.GetAxis("Mouse Y");
         }
-        
-        Horizontal += rotateHorizontal * sensitivity;
-        Vertical += -rotateVertical * sensitivity;
-        transform.rotation = Quaternion.Euler(Vertical,Horizontal, 0);
+
+        void FixedUpdate()
+        {
+            if (horizontalInput != 0 || verticalInput != 0)
+            {
+                transform.Translate(moveSpeed * transform.right * horizontalInput, Space.World);
+                transform.Translate(moveSpeed * transform.forward * verticalInput, Space.World);
+            }
+
+            Horizontal += rotateHorizontal * sensitivity;
+            Vertical += -rotateVertical * sensitivity;
+            transform.rotation = Quaternion.Euler(Vertical, Horizontal, 0);
+        }
     }
 }
