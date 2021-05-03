@@ -18,7 +18,7 @@ namespace Behaviour
         // Start is called before the first frame update
         void Start()
         {
-            EditorUtility.SetDirty(this);
+            //EditorUtility.SetDirty(this);
         }
 
         // Update is called once per frame
